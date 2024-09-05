@@ -13,10 +13,14 @@
     justify-content;
 } */
 header{
-    padding: 10px;
+    height: 76px;
 }
-
-
+.logo{
+    color:#666;
+    font-size: 1.4rem;
+    padding: 9px;
+    align-items: center;
+}
 
 ul{
     list-style: none;
@@ -27,11 +31,13 @@ ul{
 a{
     color: #333;
     text-decoration: none;
-    ;
+    
 }
 nav{
     display: flex;
     justify-content:space-around;
+    padding: 24px;
+    font-size: 0.8rem;
 }
 .change{
     background-image: url(../img/blaues\ wasser.png);
@@ -42,12 +48,29 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.button{
-    display: flex;
-    width: 30vw;
-    background-color: azure;
-    justify-content: space-between;
+
+.readme{
+    font-size: 12px;
+    font-weight: 600;
+    height: 50px;
+    width: 25vh;
+    height: 6vh;
+    color: white;
+    background-color: blueviolet;
 }
+.down{
+    font-size: 12px;
+    font-weight: 600;
+    height: 50px;
+    width: 25vh;
+    height: 6vh;
+    opacity: 100;
+    color: white;}
+
+
+
+
+
 .waves{
     color: white;
     font-size: 2em;
@@ -55,10 +78,10 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-h1
-{
+h1{
     font-size: 4rem;
     font-weight: 300;
-    
-
+}
+.readme{
+    text-al;
 }
