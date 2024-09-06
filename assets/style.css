@@ -17,11 +17,9 @@ header{
 }
 .logo{
     color:#666;
-    font-size: 1.4rem;
-    padding: 9px;
-    align-items: center;
+    font-size: 1.35rem;
+    align-items:
 }
-
 ul{
     list-style: none;
     display: flex;
@@ -31,13 +29,12 @@ ul{
 a{
     color: #333;
     text-decoration: none;
-    
 }
 nav{
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
     padding: 24px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .change{
     background-image: url(../img/blaues\ wasser.png);
@@ -48,7 +45,6 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
 .readme{
     font-size: 12px;
     font-weight: 600;
@@ -64,12 +60,11 @@ nav{
     height: 50px;
     width: 25vh;
     height: 6vh;
-    opacity: 100;
-    color: white;}
+    color: white;
+    background: transparent;
+    border: solid white;
 
-
-
-
+}
 
 .waves{
     color: white;
@@ -79,7 +74,12 @@ nav{
     align-items: center;
 }
 h1{
-    font-size: 4rem;
-    font-weight: 300;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    padding-top: 60px;
+    
 }
-
+p{
+    font-size: 1.2rem;
+    margin: 10px
+}
