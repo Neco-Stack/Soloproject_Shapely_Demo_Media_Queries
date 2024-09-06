@@ -18,13 +18,17 @@ header{
 .logo{
     color:#666;
     font-size: 1.35rem;
-    align-items:
+    text-align: center;
+    padding-right: 10rem;
 }
 ul{
     list-style: none;
     display: flex;
     width: 60vw;
     justify-content: space-between;
+    padding-left: 70px;
+    text-align: center;
+    align-items: center;
 }
 a{
     color: #333;
@@ -77,7 +81,6 @@ h1{
     font-size: 3.5rem;
     font-weight: lighter;
     padding-top: 60px;
-    
 }
 p{
     font-size: 1.2rem;
